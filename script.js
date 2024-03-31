@@ -20,7 +20,7 @@ chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
 
 });
 
-fetch("http://localhost:5000/folder/getAll"
+fetch("https://chrome-extention-backend.onrender.com/folder/getAll"
   , {
     method: 'POST',
     headers: {
@@ -68,7 +68,7 @@ saveBtn.addEventListener("click", function () {
 
   console.log(JSON.stringify(data))
 
-  fetch("http://localhost:5000/bookmark/create", {
+  fetch("https://chrome-extention-backend.onrender.com/bookmark/create", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"

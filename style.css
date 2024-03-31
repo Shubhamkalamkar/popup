@@ -26,3 +26,23 @@ label{
     padding: 5px;
 
 }
+
+
+
+#emailForm{
+    width: 500px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+#emailInput{
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+
+#saveEmailBtn{
+    padding: 10px;
+    border-radius: 5px;
+}
