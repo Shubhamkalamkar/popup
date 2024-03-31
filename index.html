@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="container" class="container" style="display: none">
+      <div class="pageRow">
+        <img
+          id="tabIcon"
+          src="https://tse4.mm.bing.net/th?id=OIP.awAiMS1BCAQ2xS2lcdXGlwHaHH&pid=Api&P=0&h=180"
+          alt="img"
+        />
+        <p id="title" style="margin-left: 20px">Getting ...</p>
+      </div>
+      <div class="pageRow">
+        <label for="note">Note -</label>
+        <input id="note" type="text" />
+      </div>
+      <div class="pageRow">
+        <label>collection - </label>
+        <select id="collectionSelect">
+          <option>Select</option>
+        </select>
+      </div>
+      <div class="pageRow">
+        <label>Url -</label>
+        <p id="tabUrl">Getting</p>
+      </div>
+    </div>
+    <button class="btnSave">Save</button>
+
+    <div id="emailForm" style="display: none">
+      <input id="emailInput" type="email" placeholder="Enter your email" />
+      <button id="saveEmailBtn">Save</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
